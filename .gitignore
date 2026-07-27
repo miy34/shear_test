@@ -1,0 +1,11 @@
+# ignore everything by default
+*
+
+# explicitly allow what should be tracked
+
+## root
+!.gitignore
+!Cargo.{toml,lock}
+
+!crates/
+!crates/**/
